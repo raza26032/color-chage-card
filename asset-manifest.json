@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/color-chage-card/static/css/main.0ccf25df.chunk.css",
+    "main.js": "/color-chage-card/static/js/main.97f1751c.chunk.js",
+    "main.js.map": "/color-chage-card/static/js/main.97f1751c.chunk.js.map",
+    "runtime-main.js": "/color-chage-card/static/js/runtime-main.d783b6f2.js",
+    "runtime-main.js.map": "/color-chage-card/static/js/runtime-main.d783b6f2.js.map",
+    "static/js/2.80a9afd7.chunk.js": "/color-chage-card/static/js/2.80a9afd7.chunk.js",
+    "static/js/2.80a9afd7.chunk.js.map": "/color-chage-card/static/js/2.80a9afd7.chunk.js.map",
+    "index.html": "/color-chage-card/index.html",
+    "static/css/main.0ccf25df.chunk.css.map": "/color-chage-card/static/css/main.0ccf25df.chunk.css.map",
+    "static/js/2.80a9afd7.chunk.js.LICENSE.txt": "/color-chage-card/static/js/2.80a9afd7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d783b6f2.js",
+    "static/js/2.80a9afd7.chunk.js",
+    "static/css/main.0ccf25df.chunk.css",
+    "static/js/main.97f1751c.chunk.js"
+  ]
+}
