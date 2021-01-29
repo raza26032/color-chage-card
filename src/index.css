@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #28223f;
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+  margin-right: 230px;
+}
+
+p {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card-container .round {
+  border: 1px solid #03bfcb;
+  border-radius: 50%;
+  padding: 7px;
+  width: 100px;
+  height: 100px;
+  margin-right: 240px;
+  margin-top: -25px;
+}
+
+.square {
+  width:476px;
+  }
+
+.square-post {
+  display:block;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.Dark{
+  background-color: #231e39;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: white;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 0px 0px 5px 5px;
+  transition: background-color .90s;
+}
+.Bright{
+  background-color: white;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: black;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  border-radius: 0px 0px 7px 7px;
+  transition: background-color .90s;
+}
+
+input {
+  -webkit-appearance: none;
+  position: relative;
+  width: 60px;
+  height: 30px;
+  background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
+  background-size: cover;
+  border-radius: 50px;
+  outline: none;
+  transition: background-image .90s;
+  box-shadow: 0px 2px 5px 1px gray;
+  margin-bottom: -40px;
+  z-index: 50;
+  margin-left: 285px;
+}
+
+input:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: navy;
+  border-radius: 50px;
+  transition: all .9s;
+  background-color: #ECF0F3;
+}
+
+input:checked {
+  background-image: url(https://i.postimg.cc/857jHw2q/Screenshot-2020-04-16-at-1-07-06-PM.png);
+  transition: background-image .90s;
+
+}
+
+input:checked:before {
+  transform: translate(100%);
+  transition: all .9s;
+  background-color: #F7CA33;
+}
